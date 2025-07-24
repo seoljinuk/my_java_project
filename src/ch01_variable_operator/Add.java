@@ -4,7 +4,7 @@ public class Add {
     public static void main(String[] args) {
         // 변수를 선언(정의)
         int x ; // 정수형 데이터를 위하여 변수 x를 준비해 주세요.
-        int y ;
+        int y  ;
         int z ;
 
         x = 3 ; // x라는 곳에 숫자 3을 할당(대입)해주세요.(write)
