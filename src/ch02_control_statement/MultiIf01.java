@@ -4,6 +4,7 @@ public class MultiIf01 {
     public static void main(String[] args) {
         int temperature = 24;
         String status = "";
+
         if(temperature >= 35){
             status = "폭염 경보";
 
