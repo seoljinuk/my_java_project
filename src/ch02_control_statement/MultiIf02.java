@@ -2,7 +2,7 @@ package ch02_control_statement;
 
 public class MultiIf02 {
     public static void main(String[] args) {
-        int age = 16 ;
+        int age = 12 ;
         double ticket = 1000.0 ;
         double discount ; // 할인율
         String comment ;
@@ -30,7 +30,7 @@ public class MultiIf02 {
 
         String message = age + "살 : " + comment ;
         System.out.println(message);
-        message = "가격은 " + ticket * (1 - discount) + "입니다." ;
+        message = "가격은 " + (int)(ticket * (1 - discount)) + "입니다." ;
         System.out.println(message);
     }
 }
