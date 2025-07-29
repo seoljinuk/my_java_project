@@ -19,6 +19,7 @@ public class WhileTest4 {
 
             }else if(grade < 0){ // -10 이상의 음수에 대한 처리
                 grade = -grade ;
+
             }else{
 
             }
