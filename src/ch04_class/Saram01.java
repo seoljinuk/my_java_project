@@ -2,8 +2,10 @@ package ch04_class;
 
 // 단계 1 : 클래스 정의(선언)
 public class Saram01 {
+    // 공유하고자 하는 변수는 static 키워드를 사용합니다.
+    static String nationality ;
+
     // 멤버 변수들은 기본 값이 존재합니다.
-    String nationality ;
     String name ;
     double height ;
     double weight ;

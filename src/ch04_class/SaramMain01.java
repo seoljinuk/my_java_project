@@ -2,6 +2,9 @@ package ch04_class;
 
 public class SaramMain01 {
     public static void main(String[] args) {
+//        int x ;
+//        System.out.println(x);
+
         // 단계 2 : 객체 생성
         // 클래스이름  객체이름  = new 생성자이름() ;
         Saram01 yusin = new Saram01();
