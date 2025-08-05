@@ -10,6 +10,8 @@ public class InheTest04 {
         // 슈퍼 클래스 내에 있는 메소드는 상속 개념에 의하여 접근이 가능합니다.
         beverage01.showInfo();
 
+        System.out.println(beverage01.toString());
+
         // 승급시 서브 클래스내의 변수와 메소드는 일시적으로 접근을 하지 못하도록 설계되어 있습니다.
         // 단, 강등을 하게 되면 서브 클래스 내의 변수와 메소드를 접근할 수 있습니다.
         Americano04 ame = (Americano04)beverage01 ; // 강등
@@ -38,6 +40,8 @@ public class InheTest04 {
         for (int i = 0; i < beverage.length; i++) {
             System.out.println("---------------------------------");
             beverage[i].showInfo();
+
+            System.out.println(beverage[i].toString());
 
             // beverage[i] instanceof Americano04
             // 객체 beverage[i]는 Americano04 클래스로 생성된 물건이 맞나요?
