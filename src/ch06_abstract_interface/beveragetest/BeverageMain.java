@@ -9,6 +9,7 @@ public class BeverageMain {
         };
 
         for (int i = 0; i < beverage.length; i++) {
+            beverage[i].showData();
             beverage[i].drink();
             beverage[i].make();
             System.out.println();

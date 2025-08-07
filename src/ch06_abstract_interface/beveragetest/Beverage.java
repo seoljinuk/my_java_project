@@ -29,4 +29,9 @@ public abstract class Beverage {
     protected final String getProductName() {
         return this.name + " 제조법\n";
     }
+
+    public final void showData(){
+        String message = "음료 " + name + "의 단가는 " + price + "입니다.";
+        System.out.println(message);
+    }
 }
